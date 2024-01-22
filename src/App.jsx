@@ -46,11 +46,8 @@ function App() {
   };
   const handlePop = () => {
     const newArray = [...array];
-    //REVIEW - pop() 질문
-    // pop()의 return 값은 pop()한 값이다.
-    // 따라서 pop()을 한 번 실행한 다음에, 해당 값이 undefined인지 확인하는 것이 내 의도이다.
-    // 근데 왜, pop을 '조건문' 안에서 실행했는데, 왜 pop()한 결과가 실제 result에 반영되는 것인가?
-    if (newArray.pop() === undefined) {
+    const poppedItem = newArray.pop();
+    if (!poppedItem) {
       alert("[Error] Nothing in Array!!");
       return;
     }
