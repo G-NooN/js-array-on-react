@@ -74,7 +74,7 @@ function App() {
   const handleFind = () => {
     const isArrayFindQuery = array.find((item) => item.includes(query));
     //REVIEW - 빈 값을 입력했는데 왜 apple이 나올까
-    query === "" || isArrayFindQuery === undefined
+    query === "" || !isArrayFindQuery
       ? setResultArray("Not Found")
       : setResultArray(isArrayFindQuery);
   };
