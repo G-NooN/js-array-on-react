@@ -1,70 +1,23 @@
-# Getting Started with Create React App
+## JS 배열 메서드 React에서 사용하기 실습 Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+각 메서드 버튼과 입력 값을 활용하여 원본 배열을 가공
 
-## Available Scripts
+**메서드 실습 목록**
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+|  메서드  |                        설명                         |
+| :------: | :-------------------------------------------------: |
+| forEach  |         배열을 "index: 요소" 형태로 return          |
+|  filter  |          입력한 값을 포함한 요소를 return           |
+|   map    |               배열을 대문자로 return                |
+|  reduce  |      배열을 "요소 + 요소 + ..." 형태로 return       |
+|   push   |         입력한 값을 배열에 추가하여 return          |
+|   pop    |        배열의 마지막 요소를 제거하여 return         |
+|  slice   |      배열의 마지막 요소 2개를 제거하여 return       |
+|  splice  | 배열의 [2], [3] 요소를 각각 'kiwi', 'lime'으로 변경 |
+| indexOf  |  입력한 값과 정확히 일치하는 요소의 index를 return  |
+| includes |  입력한 값과 정확히 일치하는 요소의 여부를 return   |
+|   find   |      입력한 값을 포함하는 첫번째 요소를 return      |
+|   some   |        입력한 값을 포함하는지 여부를 return         |
+|  every   |    모든 요소가 5글자를 초과하는지 여부를 return     |
+|   sort   |     배열을 알파벳 내림차순으로 정리하여 return      |
+|   join   |       배열을 "요소, 요소, ..." 형태로 return        |
